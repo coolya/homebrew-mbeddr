@@ -12,7 +12,7 @@ class UniversalBrewedPython < Requirement
   end
 end
 
-class Gdb < Formula
+class Gdb76 < Formula
   homepage "http://www.gnu.org/software/gdb/"
   url "http://ftpmirror.gnu.org/gdb/gdb-7.6.2.tar.gz"
   mirror "http://ftp.gnu.org/gnu/gdb/gdb-7.6.2.tar.gz"
@@ -54,7 +54,7 @@ class Gdb < Formula
     end
 
 
-    args << "--program-suffix=-#{version.to_s.slice(/^\d/)}"
+  args << "--program-suffix=-#{version.to_s.slice(/^\d/)}"
 
 
     system "./configure", *args
