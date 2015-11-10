@@ -54,7 +54,7 @@ class Gdb76 < Formula
     end
 
 
-  args << "--program-suffix=-#{version.to_s.slice(/^\d/)}"
+  #args << "--program-suffix=-#{version.to_s.slice(/^\d/)}"
 
 
     system "./configure", *args
