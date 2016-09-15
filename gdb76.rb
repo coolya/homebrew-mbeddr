@@ -16,7 +16,7 @@ class Gdb76 < Formula
   homepage "http://www.gnu.org/software/gdb/"
   url "http://ftpmirror.gnu.org/gdb/gdb-7.6.2.tar.gz"
   mirror "http://ftp.gnu.org/gnu/gdb/gdb-7.6.2.tar.gz"
-  sha1 "d1b99d156b3bd6f2e5e91ea390976cd4f7d3fb3a"
+  sha256 "17f7bcda1b24336aadcb1c5e703c355551e59467e221c6f4353b720dffad73a7"
 
   depends_on "pkg-config" => :build
   depends_on "readline"
