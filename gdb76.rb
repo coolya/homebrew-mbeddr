@@ -72,6 +72,10 @@ class Gdb76 < Formula
     gdb requires special privileges to access Mach ports.
     You will need to codesign the binary. For instructions, see:
       http://sourceware.org/gdb/wiki/BuildingOnDarwin
+    
+    On 10.12 (Sierra) or later with SIP, you need to run this:
+
+      echo "set startup-with-shell off" >> ~/.gdbinit
     EOS
   end
 end
